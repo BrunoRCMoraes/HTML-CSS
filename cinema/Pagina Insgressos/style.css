@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+body{
+    background: linear-gradient(68.15deg, #111925 19.62%, #20375b 83.61% );
+    color: #c5d9f3;
+}
+
+#cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    box-shadow: 0px 4px 4px #16253c;
+}
+
+#nomeCinema{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    gap: 3px;
+}
+
+#Nome{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #c5d9f3;
+}
+
+#Logo{
+    width: 40px;
+    height: 40px;
+}
+
+#titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+}
+
+#conteudo { 
+    padding-top: 120px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 120px;
+}
+
+#mapaCadeiras{
+    width: 800px;
+    height: 450px;
+}
+
+#compra table tr td{
+    padding: 10px;
+}
+
+.inp_texto{
+    height: 40px;
+    width: 450px;
+    background-color: transparent;
+    border: 2px solid #c5d9f3;
+    border-radius: 30px;
+    text-align: center;
+    color: #c5d9f3;
+    font-size: 15px;
+}
+
+#num_cpf{
+    height: 40px;
+    width: 450px;
+    background-color: transparent;
+    border: 2px solid #c5d9f3;
+    border-radius: 30px;
+    text-align: center;
+    color: #c5d9f3;
+    font-size: 15px;
+}
+
+#cidade{
+    display: flex;
+    align-items: center;
+}
+
+.inp_cidades{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 4px;
+}
+
+.radio{
+    cursor: pointer;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    border: 1px solid #c5d9f3;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.radio::before{
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: #c5d9f3;
+    border-radius: 50px;
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+}
+
+.radio:checked::before{
+    opacity: 1;
+}
+
+.radio:focus{
+    box-shadow: 0px 0px 6px #7fa9e7;
+}
+
+#sel_filme{
+    height: 50px;
+    width: 460px;
+    background-color: transparent;
+    border: 2px solid #c5d9f3;
+    border-radius: 30px;
+    text-align: center;
+    color: #c5d9f3;
+    font-size: 15px;
+}
+
+.opicoes{
+    color: black;
+}
+
+.option1{
+    color: gray;
+}
+
+#Botoes{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.botao{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 50px;
+    background-color: transparent;
+    color: #c5d9f3;
+    border: 1px solid #c5d9f3;
+    border-radius: 50px;
+    font-size: 15px;    
+}
+
+.botao:hover{
+    background-color: #c5d9f3;
+    color: #111925;
+    border: 1.5PX solid #2065ce;
+}
+
+#final{
+    border-top: 1px solid #c5d9f3;
+    font-family: 'Raleway', sans-serif;
+}
+
+#Redes{
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h6{
+    font-size: 15px;
+}
+
+.linkRedes{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #608dc8;
+    text-decoration: none;
+}
+
+#final p{
+    font-size: 13px;
+}

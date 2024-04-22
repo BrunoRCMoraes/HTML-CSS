@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+body{
+    background: linear-gradient(68.15deg, #111925 19.62%, #20375b 83.61% );
+    color: #c5d9f3;
+}
+
+#cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    box-shadow: 0px 4px 4px #16253c;
+}
+
+#nomeCinema{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    gap: 3px;
+}
+
+#Nome{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #c5d9f3;
+}
+
+#Logo{
+    width: 40px;
+    height: 40px;
+}
+
+#titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+}
+
+.imagens{
+    padding: 20px;
+    width: 215px;
+    height: 300px;
+}
+
+#filme1{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #123c79;
+}
+
+#filme2{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #123c79;
+}
+
+#filme3{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #123c79;
+}
+
+#filme4{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #123c79;
+}
+
+.filme{
+    display: flex;
+}
+
+.textos{
+    font-family: 'Raleway', sans-serif;
+}
+
+h5{
+    font-size: 20px;
+    color: #227ceb;
+}
+
+.informacoes{
+    border-bottom: 1px solid #123c79;
+    height: 25px;
+}
+
+.sinopse{
+    display: block;
+    width: 800px;
+}
+
+.horarios{
+    font-family: 'Raleway', sans-serif;
+}
+
+.horarios p{
+    font-size: 19px;
+}
+
+.botao1{
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #c5d9f3;
+    border: 2PX solid #123c79;
+    text-align: center;
+}
+
+.botao1:hover{
+    background-color: #c5d9f3;
+    color: #111925;
+    border: 2PX solid #2065ce;
+}
+
+.botao2{
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #c5d9f3;
+    border: 3PX solid #08244d;
+    text-align: center;
+}
+
+.botao2:hover{
+    background-color: #c5d9f3;
+    color: #111925;
+    border: 2PX solid #2065ce;
+}
+
+#final{
+    border-top: 1px solid #c5d9f3;
+    font-family: 'Raleway', sans-serif;
+}
+
+#Redes{
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h6{
+    font-size: 15px;
+}
+
+.linkRedes{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #608dc8;
+    text-decoration: none;
+}
+
+#final p{
+    font-size: 13px;
+}

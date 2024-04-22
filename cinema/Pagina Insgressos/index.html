@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ingressos</title>
+</head>
+<body>
+    <header>
+        <div id="cabecalho">
+            <a href="/Pagina Principal/index.html">
+                <div id="nomeCinema">
+                    <img src="/imagens/clapperboard.png" alt="Logo" id="Logo">
+                    <h4 id="Nome">CINELUX</h4>
+                </div>
+            </a>
+            <h4 id="titulo">COMPRAR INGRESSOS</h4>
+        </div>
+    </header>
+
+    <section id="conteudo">
+        <form id="compra">
+            <table >
+                <tr>
+                    <td>NOME:</td>
+                    <td>
+                        <input type="text" name="txt_Nome" class="inp_texto" maxlength="50" placeholder="NOME">
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>CPF:</td>
+                    <td>
+                        <input type="number" name="num_cpf" id="num_cpf" placeholder="CPF">
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>CIDADE:</td>
+                    <td id="cidade">
+                        <div class="inp_cidades"><input type="radio" name="rdCIDADE" value="Campinas" class="radio">CAMPINAS</div>
+                        <div class="inp_cidades"><input type="radio" name="rdCIDADE" value="Valinhos" class="radio">VALINHOS</div> 
+                        <div class="inp_cidades"><input type="radio" name="rdCIDADE" value="São paulo" class="radio">SÃO PAULO</div> 
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>FILME:</td>
+                    <td>
+                        <select name="sel_filme" id="sel_filme">
+                            <option value="" data-default disabled selected class="opicoes1"> SELECIONE O FILME...</option>
+                            <option class="opicoes">VELOSES E FURIOSOS 10</option>
+                            <option class="opicoes">A MORTE DO DEMONIO: A ACENSÃO</option>
+                            <option class="opicoes">GUARDIÕES DA GALÁXIA VOL.3</option>
+                            <option class="opicoes">SUPER MARIO BROS</option>
+                        </select>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>SESSÃO DO FILME:</td>
+                    <td>
+                        <input type="text" name="" id="" class="inp_texto" placeholder="Ex: Sala X - 00:00">
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>NÚMERO DO ASSENTO:</td>
+                    <td>
+                        <input type="text" name="" id="" class="inp_texto" placeholder="Ex: a1">
+                    </td>
+                </tr>
+            </table>
+
+            <div id="Botoes">
+                <button id="btn_pagar" class="botao">PAGAR</button>
+                <input type="reset" name="btn_Limpar" value="LIMPAR DADOS" class="botao">
+            </div>
+        </form>
+
+        <div id="imagem">
+            <img src="/imagens/mapa-cadeiras.png" alt="" id="mapaCadeiras">
+        </div>
+    </section>
+
+    <footer id="final">
+
+        <div id="Redes">
+            <h6>REDES SOCIAIS :</h6>
+            <a href="#" id="instagram" class="linkRedes">
+                <img src="/imagens/instagram.png" alt="">
+                INSTAGRAM
+            </a>
+            <a href="#" id="facebook" class="linkRedes">
+                <img src="/imagens/facebook.png" alt="">
+                FACEBOOK
+            </a>
+            <a href="#" id="youtube" class="linkRedes">
+                <img src="/imagens/youtube.png" alt="">
+                YOUTUBE
+            </a>
+            <a href="#" id="twitter" class="linkRedes">
+                <img src="/imagens/twitter.png" alt="">
+                TWITTER
+            </a>
+            
+        </div>    
+        <center>
+        <p>FEITO POR &copy;BrunoMoraes</p>
+        </center>
+        
+    </footer>
+</body>
+</html>

@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+    background: linear-gradient(68.15deg, #111925 16.62%, #20375b 85.61%);
+    color: #c5d9f3;
+}
+
+#cabecalho{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Nome{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#nomeTexto{
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+}
+
+#text_login{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #c5d9f3;
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    position: relative;
+}
+
+#text_login::after{
+    content: " ";
+    width: 0px;
+    height: 2px;
+    background-color: #2d67b2;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    transition: width 0.4s;
+}
+
+#text_login:hover::after{
+    width: 100%;
+}
+
+#Menu{
+    padding-top: 70px;
+    padding-bottom: 9px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 4px #16253c;
+}
+
+#itens ul li{
+    padding: 60px;
+    display: inline;
+    font-size: 23px;
+    font-family: 'Dosis', sans-serif;
+}
+
+#itens a{
+    text-decoration: none;
+    list-style: none;
+    color: #c5d9f3;
+    position: relative;
+    display: inline-block;
+}
+
+#itens ul li a::after{
+    content: " ";
+    width: 0px;
+    height: 2px;
+    background-color: #2d67b2;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transition: width 0.4s;
+}
+
+#itens ul li a:hover::after{
+    width: 100%;
+}
+
+#banner{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#banner img{
+    width: 90%;
+    height: 90%;
+}
+
+
+#emCartaz{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.imagens{
+    padding: 20px;
+    width: 215px;
+    height: 300px;
+}
+
+.imagens:hover{
+    opacity: 0.4;
+}
+
+#titulo{
+    font-size: 20px;
+}
+
+#sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 80px;
+}
+
+#textos{
+    display: block;
+    height: 300px;
+    width: 800px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#textos h4{
+    font-size: 20px;
+}
+
+#textos p{
+    font-size: 18px;
+}
+
+#img_homem{
+    height: 500px;
+}
+
+#final{
+    border-top: 1px solid #c5d9f3;
+    font-family: 'Raleway', sans-serif;
+}
+
+#Redes{
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h6{
+    font-size: 15px;
+}
+
+.linkRedes{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #608dc8;
+    text-decoration: none;
+}
+
+#final p{
+    font-size: 13px;
+}
+
+
